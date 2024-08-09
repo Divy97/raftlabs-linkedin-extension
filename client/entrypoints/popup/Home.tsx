@@ -7,7 +7,7 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({ signInWithLinkedIn }) => {
   return (
     <div className="home-container">
-      <h1>LinkedIn Extension</h1>
+      <h1>LinkedIn Post Extension</h1>
       <button className="linkedin-button" onClick={signInWithLinkedIn}>
         Login with LinkedIn
       </button>
